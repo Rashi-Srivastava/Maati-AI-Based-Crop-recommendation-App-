@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 absl-py==0.11.0
 asn1crypto==0.24.0
 astor==0.8.1
@@ -113,3 +114,19 @@ Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.4.0
 zope.interface==4.3.2
+=======
+Flask==1.1.2
+joblib==0.16.0
+imageio==2.9.0
+Keras==2.4.3
+geopy==2.0.0
+tensorflow==2.3.1
+imutils==0.5.3
+geopandas==0.6.1
+matplotlib==3.2.2
+pandas==1.0.5
+requests==2.24.0
+numpy==1.19
+reverse_geocoder==1.5.1
+scikit_learn==0.23.2
+>>>>>>> e246b2aeb796094ea95a4be616c83770b6289e67
