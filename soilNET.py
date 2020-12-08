@@ -20,8 +20,8 @@ img_width, img_height = 150, 150
 
 #train test splitting
 
-train_data = "Soils\Train"
-test_data = "Soils\Test"
+train_data = "Soils/Train"
+test_data = "Soils/Test"
 
 train_path = list(paths.list_images(train_data)) 
 totalTrain = len(train_path)
