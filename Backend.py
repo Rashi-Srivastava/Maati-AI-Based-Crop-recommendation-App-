@@ -69,7 +69,7 @@ def predict():                                      #defining prediction functio
         soil_type = 3
     elif types == "Latterite":
         soil_type = 4
-    elif types == "Red":
+    elif types == "Black":
         soil_type = 5
     elif types == "Sandy":
         soil_type = 6
