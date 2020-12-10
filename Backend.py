@@ -72,7 +72,7 @@ def predict():                                      #defining prediction functio
     elif types == "Red":
         soil_type = 5
     elif types == "Sandy":
-       soil_type = 6
+        soil_type = 6
     
     coordinates = data["Loc_Cordinates"]            #extracting location coordinates
     coordinates = str(coordinates)                  
@@ -199,7 +199,7 @@ def predict():                                      #defining prediction functio
     output = json.dumps(input_dict)
     with open("input.json","w") as sout:
         sout.write(output)
-    filename = "finalized_model.sav"
+    filename = "CRSML.sav"
     loaded_model = joblib.load(filename)
     
     file_path = "input.json"
